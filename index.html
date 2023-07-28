@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+    <!--iconos bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <!--css-->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!--animate.css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <!--jquery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <!--favicon-->
+    <link rel="icon" type="image/x-icon" href="/assets/img/mariposa-logo.png">
+    <script defer src="./assets/js/script.js"></script>
+    <title>Portafolio Jasmin S.</title>
+    <!--fonts poppins-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="header">
+
+        <!--nav vertical iconos-->
+        <nav class="navbar">
+            <div class="d-flex flex-column justify-content-start py-3 ">
+                <ul class="text-center mx-auto px-1">
+                    <li class="p-1"><a class="nav-link" href="#"><img src="./assets/img/mariposa-logo.png" width="52px"
+                                alt="Logo"></a></li>
+                    <li><a class="nav-link text-light" aria-current="page" href="#aboutMe"><i class="bi bi-person-circle"></i></a></li>
+                    <li><a class="nav-link" href="#projects"><i class="bi bi-laptop"></i></a></li>
+                    <li><a class="nav-link" href="mailto:sjasmin.salvador@gmail.com"><i class="bi bi-envelope-check"></i></a></li>
+                </ul>
+            </div>
+        </nav>
+
+
+        <div class="d-flex flex-wrap-reverse">
+            <!--izquierda-->
+            <div class="text-header col-xl-6 col-lg-7 col-md-7 col-sm-12 pt-5">
+                <div class="container-bubbles">
+                    <div class="bubbles">
+                        <span style="--i:11"></span>
+                        <span style="--i:12"></span>
+                        <span style="--i:24"></span>
+                        <span style="--i:10"></span>
+                        <span style="--i:14"></span>
+                        <span style="--i:23"></span>
+                        <span style="--i:18"></span>
+                        <span style="--i:16"></span>
+                        <span style="--i:19"></span>
+                        <span style="--i:20"></span>
+                        <span style="--i:22"></span>
+                        <span style="--i:15"></span>
+                        <span style="--i:18"></span>
+                        <span style="--i:21"></span>
+                        <span style="--i:15"></span>
+                        <span style="--i:13"></span>
+                        <span style="--i:26"></span>
+                        <span style="--i:17"></span>
+                        <span style="--i:13"></span>
+                        <span style="--i:28"></span>
+                    </div>
+                    <div class="col-lg-9 col-md-10 col-sm-10 cont-welcome text-center mx-auto">
+                        <div class="header-welcome p-4 mb-2 w-75 text-center mx-auto">
+                            <h3 class="fw-bold neon">BIENVENIDO A MI PORTAFOLIO</h3>
+                        </div>
+                        <div class="header-text flex-column px-5 pt-5 col-12">
+                            <h2 class="fw-bold pt-5 pb-3 px-3 text-center mx-auto">SOY JASMIN</h2>
+                            <!--maquina escribir js-->
+                            <div class="pb-5">
+                                <h1 id="machine" class="text-center mx-auto fw-bold"></span></h1>
+                            </div>
+                        </div>
+                    </div>
+                    <!--iconos-->
+                    <div class="header-icons d-flex justify-content-center gap-3 mt-5">
+                        <a href="#aboutMe"><i class="bi bi-person-circle"></i></a>
+                        <a href="#projects"><i class="bi bi-laptop"></i></a>
+                        <a href="mailto:sjasmin.salvador@gmail.com"><i class="bi bi-envelope-check"></i></a>
+                        <a href="https://github.com/jasSalvador" target="_blank"><i class="bi bi-github"></i></a>
+                        <a href="https://www.linkedin.com/in/sjasalvador/" target="_blank"><i class="bi bi-linkedin"></i></a>
+                    </div>
+                </div> <!--fin bubbles-->
+            </div>
+            <!--derecha-->
+            <div class="img-header col-xl-6 col-lg-5 col-md-5 col-sm-12">
+                <img src="./assets/img/perfil.png" class="w-100" alt="foto perfil">
+            </div>
+        </div>
+    </section>
+
+
+    <!--sobre mi-->
+    <section class="container about-me pt-3 py-5" id="aboutMe">
+        <h2
+            class="text-center pt-5 mx-auto animate__animated animate__pulse animate__infinite infinite animate__slow 2s py-5 fw-bold">
+            Sobre mí</h2>
+
+        <div class="cont-about d-flex flex-wrap justify-content-between align-items-center gap-3 pb-5 pt-2 mx-auto">
+            <div class="about-avatar col-4">
+                <img src="./assets/img/avatar.png" width="300px" alt="Avatar">
+            </div>
+
+            <div class="about-text pb-3 col-lg-7 col-md-12">
+                <!-- <h2 class="text-center pb-4 mx-auto">Sobre mí</h2> -->
+                <p class="text-center pb-4 mx-auto">Mi viaje como desarrolladora comenzó en 2021, y desde entonces he 
+                    descubierto un mundo apasionante que me ha impulsado a seguir aprendiendo y expandiendo mis 
+                    habilidades en esta área. Anteriormente, me desarrollé en el ámbito del diseño de moda, pero fue 
+                    en la programación donde encontré mi verdadera pasión, especialmente en el Frontend. Esta área me 
+                    permite fusionar mi amor por el diseño con el desarrollo de código. Actualmente, estoy cursando un 
+                    programa de diseño UX y otro de JavaScript con React para seguir perfeccionando mis habilidades.
+                    Recientemente, culminé un bootcamp de Node.js, lo que ha ampliado significativamente mis conocimientos 
+                    y experiencia en el mundo del desarrollo web. Estas y otras experiencias me han llevado a abrazar la 
+                    programación como una forma de expresión creativa y una vía para seguir aprendiendo y creciendo 
+                    profesionalmente.
+                </p>
+                <div class="about-icons d-flex justify-content-center gap-3 mx-auto">
+                    <a href="https://github.com/jasSalvador" target="_blank"><i class="bi bi-github"></i></a>
+                    <a href="https://www.linkedin.com/in/sjasalvador/" target="_blank"><i class="bi bi-linkedin"></i></a>
+                    <a href="#"><i class="bi bi-file-earmark-person"></i></a>
+                </div>
+            </div>
+
+            <!--imagen perfil oculta -->
+            <div class="about-img col-sm-7 pb-4">
+                <img src="./assets/img/perfil-color.jpeg" alt="foto perfil">
+            </div>
+        </div>
+
+        <div class="about-cont-boxes col-12 border border-danger">
+            <div class="d-flex justify-content-evenly gap-2">
+                <div class="about-boxes border border-dark rounded-4"></div>
+                <div class="about-boxes border border-dark rounded-4"></div>
+                <div class="about-boxes border border-dark rounded-4"></div>
+                <div class="about-boxes border border-dark rounded-4"></div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!--proyectos-->
+    <section class="projects" id="projects">
+        <div class="projects-text text-center mx-auto">
+            <div class="container py-5">
+                <h2 class="animate__animated animate__pulse animate__infinite infinite animate__slow 2s py-5 fw-bold">
+                    Proyectos</h2>
+                <h5 class="pb-5 px-4 fw-bold">Como parte de mi aprendizaje, he desarrollado múltiples proyectos de
+                    programación, tanto en Frontend como en Backend. En cada uno de ellos, mi enfoque siempre ha
+                    sido crear productos finales con un diseño cautivador que se adapte a la temática planteada,
+                    además he puesto especial atención en los detalles, la elección de colores y, por supuesto,
+                    la responsividad para lograr una experiencia visual agradable. También, he tenido en cuenta las 
+                    necesidades de los potenciales usuarios, con el objetivo de brindar soluciones intuitivas y 
+                    funcionales.
+                </h5>
+            </div>
+        </div>
+
+        <!--proyecto 1-->
+        <div class="cont-projects digimon py-5 ">
+            <div class="container d-flex flex-wrap justify-content-between align-items-center py-5">
+
+                <!--carrusel imagenes-->
+                <div id="carouselProjects" class="carousel slide col-lg-6 py-4">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="./assets/img/digimon_api.png" class="d-block w-100" alt="Digimon">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./assets/img/digimon2.png" class="d-block w-100" alt="Digimon">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./assets/img/digimon3.png" class="d-block w-100" alt="Digimon">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselProjects"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselProjects"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+                <!--descripcion-->
+                <div class="text-center text-light mx-auto col-lg-5">
+                    <h3>Api Digimon</h3>
+                    <p class="p-4">Desarrollo de página web dinámica consumiendo API e incorporando eventos.</p>
+                    <div class="d-flex justify-content-evenly px-5 pb-5">
+                        <div class="rounded-5 bg-dark py-2 px-3">HTML</div>
+                        <div class="rounded-5 bg-dark py-2 px-3">CSS</div>
+                        <div class="rounded-5 bg-dark py-2 px-3">Bootstrap</div>
+                        <div class="rounded-5 bg-dark py-2 px-3">JavaScript</div>
+                    </div>
+                    <h6><a class="fs-5" href="https://jassalvador.github.io/digimon-api/" target="_blank">Visitar
+                            web </a><i class="bi bi-globe2 text-black"></i></h6>
+                </div>
+            </div>
+        </div>
+
+
+        <!--proyecto 2-->
+        <div class="cont-projects bootcamp py-5 ">
+            <div class="container d-flex flex-wrap-reverse justify-content-between align-items-center py-5">
+                <!--descripcion-->
+                <div class="text-center text-light mx-auto col-lg-5">
+                    <h3>App Bootcamp</h3>
+                    <p class="p-4">App con desarrollo de Backend y Frontend, con despliegue de aplicación y base de
+                        datos
+                        en servicio de alojamento de Render. El proyecto permite hacer crud completo de usuario y
+                        bootcamp
+                        mediante HTTP con su respectivo metodo payload en formato JSON.
+                    </p>
+                    <div class="d-flex flex-wrap justify-content-evenly px-5 pb-5">
+                        <div class="rounded-5 bg-dark py-2 px-3 mb-2">HTML</div>
+                        <div class="rounded-5 bg-dark py-2 px-3 mb-2">CSS</div>
+                        <div class="rounded-5 bg-dark py-2 px-3 mb-2">Bootstrap</div>
+                        <div class="rounded-5 bg-dark py-2 px-3 mb-2">JavaScript</div>
+                        <div class="rounded-5 bg-dark py-2 px-3 mb-2">Node</div>
+                        <div class="rounded-5 bg-dark py-2 px-3 mb-2">Sequelize</div>
+                        <div class="rounded-5 bg-dark py-2 px-3 mb-2">Postgres</div>
+                    </div>
+                    <h6><a class="fs-5" href="https://bootcamp-app.onrender.com/api/contacto" target="_blank">Visitar
+                            web </a><i class="bi bi-globe2 text-black"></i></h6>
+                </div>
+                <!--carrusel imagenes-->
+                <div id="carouselProjects2" class="carousel carousel-dark  slide col-lg-6 py-4">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="./assets/img/boot1.png" class="d-block w-100" alt="Digimon">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./assets/img/boot2.png" class="d-block w-100" alt="Digimon">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./assets/img/boot3.png" class="d-block w-100" alt="Digimon">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselProjects2"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselProjects2"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--footer-->
+    <footer class="d-flex flex-column align-items-center justify-content-center bg-black py-5">
+        <div class="small d-flex flex-column justify-content-center text-white-50 py-5">
+            <div class="about-icons d-flex justify-content-center gap-3 mb-3 mx-auto">
+                <a href="https://github.com/jasSalvador" target="_blank"><i class="bi bi-github"></i></a>
+                <a href="https://www.linkedin.com/in/sjasalvador/" target="_blank"><i class="bi bi-linkedin"></i></a>
+                <a href="mailto:sjasmin.salvador@gmail.com"><i class="bi bi-envelope-check"></i></a>
+                <a href="#"><i class="bi bi-file-earmark-person"></i></a>
+            </div>
+            <div class="d-flex gap-2">
+                <p class="">Desarrollado por Jasmin (2023) &#169;</p>
+                <img src="./assets/img/mariposa-logo.png" width="22px" height="18px" alt="Logo">
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
